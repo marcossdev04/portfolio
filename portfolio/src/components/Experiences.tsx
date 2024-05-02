@@ -2,7 +2,6 @@ import Image from "next/image"
 import { FaAws, FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa"
 import { IoLogoJavascript, IoLogoNodejs } from "react-icons/io"
 import { SiPrisma, SiTailwindcss, SiTypescript } from "react-icons/si"
-import ddopng from '@/assets/favicon.png'
 import ddologo from '@/assets/logo.png'
 import { DiMongodb } from "react-icons/di"
 
@@ -80,7 +79,7 @@ export function Experience() {
         },
     ]
     return (
-        <section className="mt-20 ml-[10%] mr-[10%] mobile:mt-0">
+        <section id="experiencia" className="mt-20 ml-[10%] mr-[10%] mobile:mt-0">
             <h2 className="text-4xl font-bold uppercase leading-7 mobile:text-center">Experiências</h2>
             <div className="flex justify-evenly mt-4 mobile:flex-col mobile:items-center mobile:gap-8 mobile:mt-0">
                 <div className="w-[45%] mt-16 flex flex-wrap gap-[11px] mobile:w-full mobile:flex-row mobile:justify-center">

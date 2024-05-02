@@ -1,26 +1,28 @@
 import { ProjectCard } from "./ProjectCard"
+import v from '@/assets/V.png'
+import i from '@/assets/Insominia2.png'
 
 export function Projects() {
     const projects = [
         {
             "title": "Vpratas",
-            "imageSrc": "projects/project.png",
-            "description": "Projeto pessoal feito com o intuito da venda de prata 925, com a utilização de NextJs 13!",
-            "skills": ["NextJs 13", "Tailwind", "Typescript"],
+            "imageSrc": v,
+            "description": "Projeto de ecoomerce feito com o intuito da venda de prata 925, com a utilização de NextJs 13, junto com NextUi e funcionalidades como filtro de pesquisa, dinamyc routes, carrinho de compras!",
+            "skills": ["Next 13", "Tailwind", "Typescript", "React", "Next-Ui"],
             "demo": "https://www.example.com",
             "source": "https://github.com/marcossdev04/nest-authenticator"
         },
         {
             "title": "JWT Login",
-            "imageSrc": "projects/project.png",
-            "description": "Apenas um usuário com login autenticado com JWT consegue consumir uma API de filmes, podendo listar, adicionar, editar, e excluir os mesmos.",
+            "imageSrc": i,
+            "description": "Aplicação feita para apenas usuários com login autenticado com JWT conseguir consumir uma API de filmes, podendo listar, adicionar, editar, e excluir os filmes em questão.",
             "skills": ["Node", "NestJS", "Typescript", "TypeORM", "Docker", "Redis"],
-            "demo": "https://www.example.com",
+            "demo": "undef",
             "source": "https://github.com/marcossdev04/nest-authenticator"
         },
     ]
     return (
-        <section className="mt-20 ml-[10%] mr-[10%]">
+        <section id="projetos" className="mt-20 ml-[10%] mr-[10%]">
             <h2 className="text-4xl font-bold tracking-wide uppercase">Projects</h2>
             <div className="mt-9 flex flex-row flex-wrap items-center justify-center gap-4 w-full">
                 {projects.map((project, index) => {
