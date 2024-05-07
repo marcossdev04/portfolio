@@ -17,7 +17,7 @@ export function About() {
                                 <GiArrowCursor color="white" size={30} />
                                 <h3 className="text-2xl font-semibold">Frontend Devloper</h3>
                             </div>
-                            <p className="text-xl">
+                            <p className="text-xl laptop:text-base">
                                 Como desenvolvedor Front-end, me dedico a criar
                                 experiências de usuário envolventes e intuitivas.
                                 Estou constantemente atualizado sobre as últimas
@@ -36,7 +36,7 @@ export function About() {
                                 <FaServer color="white" size={30} />
                                 <h3 className="text-3xl font-semibold">Backend Devloper</h3>
                             </div>
-                            <p className="text-xl">
+                            <p className="text-xl laptop:text-base">
                                 Já como Backend, sou apaixonado por criar
                                 sistemas robustos e escaláveis que alimentam as aplicações
                                 web. Minhas experiências abrangem a construção de APIs
@@ -56,7 +56,7 @@ export function About() {
                                 <MdOutlineWeb color="white" size={30} />
                                 <h3 className="text-2xl font-semibold">UI Designer</h3>
                             </div>
-                            <p className="text-xl">
+                            <p className="text-xl laptop:text-base">
                                 Meu objetivo como UX Desingner é criar experiências digitais que
                                 sejam intuitivas, acessíveis e agradáveis ​​para os usuários. Minha abordagem
                                 começa com uma compreensão profunda das necessidades e
