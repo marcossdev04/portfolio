@@ -9,7 +9,7 @@ import { Projects } from "@/components/Projects";
 export default function Home() {
 
   return (
-    <main className="bg-black overflow-hidden text-white">
+    <main className="bg-black overflow-hidden text-white font-[outfit]">
       <Menu />
       <Hero />
       <About />
