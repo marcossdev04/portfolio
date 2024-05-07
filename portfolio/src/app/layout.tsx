@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
-import icon from '@/app/favicon.ico'
 
-const outfit = Outfit({ subsets: ["latin"] });
+export const outfit = Outfit({ subsets: ["latin"], weight: ['400'] });
 
 export const metadata: Metadata = {
   title: "MRCDEV",
