@@ -8,7 +8,7 @@ export function Menu() {
     const [menuOpen, setMenuOpen] = useState(false)
     return (
         <div className=''>
-            <div className=" max-w-[1300px] mobile:max-w-[339px] flex justify-between  m-auto pt-[61px] items-center ">
+            <div className=" max-w-[1300px] mobile:max-w-[339px] flex justify-between m-auto pt-[61px] items-center laptop:px-32 ">
                 <div className='z-20'>
                     <span className="text-3xl font-semibold ">MRCDEV</span>
                 </div>
