@@ -9,8 +9,8 @@ export function Projects() {
             "imageSrc": v,
             "description": "Projeto de ecoomerce feito com o intuito da venda de prata 925, com a utilização de NextJs 13, junto com NextUi e funcionalidades como filtro de pesquisa, dinamyc routes, carrinho de compras!",
             "skills": ["Next 13", "Tailwind", "Typescript", "React", "Next-Ui"],
-            "demo": "https://www.example.com",
-            "source": "https://github.com/marcossdev04/nest-authenticator"
+            "demo": "https://vpratas-5fp09aocq-marcossdev04s-projects.vercel.app",
+            "source": "https://github.com/marcossdev04/VPRATAS"
         },
         {
             "title": "JWT Login",
