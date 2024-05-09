@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
+import { Geologica } from "next/font/google";
 import "./globals.css";
 
-export const outfit = Outfit({ subsets: ["latin"], weight: ['400'] });
+export const geologica = Geologica({ subsets: ["latin"], weight: ['400'] });
 
 export const metadata: Metadata = {
   title: "MRCDEV",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={outfit.className}>{children}</body>
+      <body className={geologica.className}>{children}</body>
     </html>
   );
 }
