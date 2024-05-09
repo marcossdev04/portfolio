@@ -12,10 +12,10 @@ export function Hero() {
                     </div>
                     <div className="text-3xl laptop:text-2xl mb-14 ">
                         <p>
-                            Sou Engenheiro de Software Full-Stack com 2 anos de experiência
-                            focada em React e Node.js. Minha paixão é criar soluções eficientes e
+                            Engenheiro de Software Full-Stack com 2 anos de experiência
+                            focada em NextJs e Nodejs. Apaixonado em criar soluções eficientes e
                             inovadoras que impulsionam o sucesso dos projetos. Com habilidades sólidas
-                            em desenvolvimento e uma abordagem colaborativa, estou pronto para enfrentar
+                            em desenvolvimento e uma abordagem colaborativa, adoro enfrentar
                             novos desafios e contribuir para equipes de alto desempenho. Entre em contato
                             para saber mais sobre como posso agregar valor ao seu projeto.
                         </p>
