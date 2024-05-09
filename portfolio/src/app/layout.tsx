@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Geologica } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-export const geologica = Geologica({ subsets: ["latin"], weight: ['400'] });
+export const inter = Inter({ subsets: ["latin"], weight: ['400'] });
 
 export const metadata: Metadata = {
   title: "MRCDEV",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={geologica.className}>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
