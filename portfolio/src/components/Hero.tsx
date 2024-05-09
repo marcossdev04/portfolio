@@ -7,10 +7,10 @@ export function Hero() {
         <section>
             <div className="relative flex mobile:flex-col-reverse items-center justify-between mt-12 z-10 ml-[10%] mr-[10%]">
                 <div className="flex flex-col items-start z-10 mobile:items-center w-[95%]">
-                    <div className="text-7xl laptop:text-6xl font-black mb-8 font-[roboto] ">
+                    <div className="text-7xl laptop:text-6xl font-black mb-8">
                         <h1>Olá, me chamo Marcos!</h1>
                     </div>
-                    <div className="text-3xl laptop:text-2xl font-[roboto] mb-14 ">
+                    <div className="text-3xl laptop:text-2xl mb-14 ">
                         <p>
                             Sou Engenheiro de Software Full-Stack com 2 anos de experiência
                             focada em React e Node.js. Minha paixão é criar soluções eficientes e

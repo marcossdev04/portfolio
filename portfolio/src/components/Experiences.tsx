@@ -89,7 +89,7 @@ export function Experience() {
                                 <div className={`${skill.color} rounded-full flex items-center justify-center w-[120px] h-[120px] transition ease-in-out hover:-translate-y-4 duration-300`}>
                                     {skill.icon}
                                 </div>
-                                <p className="text-2xl font-[roboto] font-medium">{skill.name}</p>
+                                <p className="text-2xl font-medium">{skill.name}</p>
                             </div>
                         )
                     })}
@@ -99,7 +99,7 @@ export function Experience() {
                         return (
                             <li className="flex items-center gap-4 bg-gradient-to-r bg-[rgba(12,12,12,0.6)] transition-colors duration-300 ease-in-out hover:bg-green-700 rounded-xl p-6 mobile:flex-col" key={index}>
                                 <Image className="w-[100px]" src={historyItem.imageSrc} alt="DDO Logo" />
-                                <div className="font-[roboto]">
+                                <div className="">
                                     <h3 className="text-3xl font-medium">{`${historyItem.role}, ${historyItem.organisation}`}</h3>
                                     <p className="text-xl font-light">{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                                     <ul className="mt-2 list-inside text-[25px] list-disc ml-4">
