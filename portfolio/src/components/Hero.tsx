@@ -13,7 +13,7 @@ export function Hero() {
                     <div className="text-3xl laptop:text-2xl mb-14 ">
                         <p>
                             Engenheiro de Software Full-Stack com 2 anos de experiência
-                            focada em NextJs e Nodejs. Apaixonado em criar soluções eficientes e
+                            focada em NextJs e NodeJs. Apaixonado em criar soluções eficientes e
                             inovadoras que impulsionam o sucesso dos projetos. Com habilidades sólidas
                             em desenvolvimento e uma abordagem colaborativa, adoro enfrentar
                             novos desafios e contribuir para equipes de alto desempenho. Entre em contato
