@@ -39,6 +39,9 @@ const config = {
       laptop: { min: '1024px', max: '1439px' },
       desktop: { min: '1440px' },
     },
+    fontFamily: {
+      roboto: ['roboto']
+    }
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config

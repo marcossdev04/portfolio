@@ -9,7 +9,7 @@ import { Projects } from "@/components/Projects";
 export default function Home() {
 
   return (
-    <main className="bg-black overflow-hidden text-white font-[roboto] ">
+    <main className="bg-black overflow-hidden text-white ">
       <Menu />
       <Hero />
       <About />
