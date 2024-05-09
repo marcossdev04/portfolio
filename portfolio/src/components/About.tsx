@@ -11,9 +11,9 @@ export function About() {
             <div className="flex items-center mobile:flex-col">
                 <Image src={avatar} alt="avatar" className="w-[40%] mt-10 mobile:hidden" />
                 <ul className=" flex flex-col gap-[20px] mt-7">
-                    <li className="flex items-center rounded-3xl list-none p-6 bg-no-repeat bg-transparent transition-colors duration-300 ease-in-out hover:bg-green-700 mobile:px-4 mobile:text-center" >
+                    <li className="flex items-center rounded-3xl list-none p-6 bg-no-repeat bg-transparent transition-colors duration-300 ease-in-out hover:bg-green-700 mobile:px-4" >
                         <div className="">
-                            <div className="flex mobile:justify-center mb-3">
+                            <div className="flex mb-3">
                                 <GiArrowCursor color="white" size={30} />
                                 <h3 className="text-2xl font-semibold">Frontend Devloper</h3>
                             </div>
@@ -29,10 +29,10 @@ export function About() {
                                 fácil de usar.</p>
                         </div>
                     </li>
-                    <li className="flex items-center rounded-3xl list-none p-6 bg-no-repeat bg-transparent transition-colors duration-300 ease-in-out hover:bg-green-700 mobile:px-2 mobile:text-center">
+                    <li className="flex items-center rounded-3xl list-none p-6 bg-no-repeat bg-transparent transition-colors duration-300 ease-in-out hover:bg-green-700 mobile:px-2">
 
                         <div className="">
-                            <div className="flex gap-1 mobile:justify-center mb-3">
+                            <div className="flex gap-1 mb-3">
                                 <FaServer color="white" size={30} />
                                 <h3 className="text-3xl font-semibold">Backend Devloper</h3>
                             </div>
@@ -50,9 +50,9 @@ export function About() {
                             </p>
                         </div>
                     </li>
-                    <li className="flex items-center rounded-3xl list-none p-6 bg-no-repeat bg-transparent transition-colors duration-300 ease-in-out hover:bg-green-700 mobile:px-4 mobile:text-center">
+                    <li className="flex items-center rounded-3xl list-none p-6 bg-no-repeat bg-transparent transition-colors duration-300 ease-in-out hover:bg-green-700 mobile:px-4 ">
                         <div className="">
-                            <div className="flex gap-1 mobile:justify-center mb-3">
+                            <div className="flex gap-1  mb-3">
                                 <MdOutlineWeb color="white" size={30} />
                                 <h3 className="text-2xl font-semibold">UI Designer</h3>
                             </div>
