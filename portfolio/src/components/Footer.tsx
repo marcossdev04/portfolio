@@ -17,7 +17,7 @@ export function Footer() {
                         <p className="text-3xl mobile:text-2xl font-normal tracking-[1.5px]">github.com/marcossdev04</p>
                     </li>
                 </Link>
-                <Link target="_blank" href={'https://www.linkedin.com/in/marcos-vinícius-9311a6254'}>
+                <Link target="_blank" href={'https://www.linkedin.com/in/marcossdev04/'}>
                     <li className="flex items-center gap-6 mobile:gap-2">
                         <FaLinkedin size={40} />
                         <p className="text-3xl mobile:text-2xl font-normal tracking-[1.5px]">linkedin.com/marcosVinícius</p>
